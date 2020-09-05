@@ -1,0 +1,28 @@
+{
+  "name": "rollup-plugin-lit",
+  "version": "0.0.1",
+  "description": "A rollup plugin to allow bundling scss with lit",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@types/sass": "^1.16.0",
+    "mocha": "^8.1.1",
+    "rollup": "^2.24.0",
+    "sass": "^1.26.10",
+    "tslib": "^2.0.1",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "lit-element": "^2.3.1"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.8.2"
+  }
+}
