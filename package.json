@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-lit",
-  "version": "0.0.1",
+  "version": "0.0.2-build.0",
   "description": "A rollup plugin to allow bundling scss with lit",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
